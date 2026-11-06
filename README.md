@@ -2,8 +2,11 @@
 
 A multi-agent data assistant built with **LangGraph**. Ask a question in plain English and the agent decides whether it is a **SQL** task (query a database) or an **ETL** task (extract from an API, or transform a CSV / Excel file), then runs it with a specialised sub-agent. A **Streamlit** chat UI sits on top.
 
-<!-- Add a screenshot: save it as docs/screenshot.png and uncomment the next line -->
-<!-- ![Data Agent UI](docs/screenshot.png) -->
+## Working
+
+https://github.com/user-attachments/assets/8a024b2d-f382-49da-ae1d-3ac184be0e93
+<img width="959" height="500" alt="Screenshot 2026-11-06 132742" src="https://github.com/user-attachments/assets/7fb52170-5480-433b-af22-9754fbf656df" />
+<img width="959" height="421" alt="Screenshot 2026-11-06 122116" src="https://github.com/user-attachments/assets/dba4ae2c-aa53-4249-aed4-69e5ea81311c" />
 
 ## Features
 
