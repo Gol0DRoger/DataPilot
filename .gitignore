@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Generated data (folders are kept via .gitkeep)
+data/uploads/
+data/extract/*
+data/transform/*
+!data/extract/.gitkeep
+!data/transform/.gitkeep
+
+# Misc
+test_schema_details.txt
+.vscode/
+.DS_Store
