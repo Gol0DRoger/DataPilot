@@ -12,8 +12,8 @@ UPLOADS, EXTRACT, OUT = (ROOT / "data" / d for d in ("uploads", "extract", "tran
 for folder in (UPLOADS, EXTRACT, OUT):
     folder.mkdir(parents=True, exist_ok=True)
 
-st.set_page_config(page_title="Data Agent", page_icon="🗄️", layout="wide")
-st.title("🗄️ Data Agent")
+st.set_page_config(page_title="Data Pilot", page_icon="🗄️", layout="wide")
+st.title("🗄️ Data Pilot")
 st.caption("Ask questions about your database (SQL), or extract / transform data from an API or a file (ETL).")
 
 st.session_state.setdefault("history", [])
