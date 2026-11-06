@@ -1,4 +1,4 @@
-# Data Pilot
+# Data Pilot -> Data Agent
 
 A multi-agent data assistant built with **LangGraph**. Ask a question in plain English and the agent decides whether it is a **SQL** task (query a database) or an **ETL** task (extract from an API, or transform a CSV / Excel file), then runs it with a specialised sub-agent. A **Streamlit** chat UI sits on top.
 
